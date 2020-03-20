@@ -1,4 +1,4 @@
-# 02-compiling-advanced-r-zsmallnine
+# Problems and solutions
 02-compiling-advanced-r-zsmallnine created by GitHub Classroom
 Problem1：Quitting from lines 223-235 (Introduction.Rmd) 
 Error in cat(paste0(contributors$desc, collapse = ", ")) :
