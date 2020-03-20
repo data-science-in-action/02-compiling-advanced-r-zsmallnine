@@ -17,14 +17,15 @@ solution：install.packages("dbplyr")
 problem4：`ggbeeswarm` must be installed to use `type = "beeswarm"` option
 
 solution：install.packages("ggbeeswarm ")
+Besides this I also install packages like desc, sessioninfo, lobstr, devtools, sloop, DBI, RSQLite, zealot, profvis, bench, tidyr.
 
 problem5：  Error 1 occurred building shared library.
 Calls: local ... withVisible -> eval -> eval -> cppFunction -> sourceCpp
 
-Solution：Add C:\Rtools\bin and c:\Rtools\mingw_32\bin to the path of the environment variable.
+Solution：Add C:\Rtools\bin and c:\Rtools\mingw_64\bin to the path of the environment variable.
 Problem6: LaTeX failed to compile _main.tex. See https://yihui.org/tinytex/r/#debugging for debugging tips.
 
-Solution: Download MiKTeX, and install the package “xecjk” in MikTex Console
+Solution: Download MiKTeX, and install the package “xecjk” in MikTex Console.
 
 Problem7: Font inconsola not found
 
